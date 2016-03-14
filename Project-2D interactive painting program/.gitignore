@@ -1,0 +1,36 @@
+
+#Exclude executable files and directory
+build/
+log.md
+test/
+glui/build/
+glui/lib/
+!Makefile
+*.o
+*.*~
+BrushWork
+.ycm_extra_conf.py
+GPATH
+GRTAGS
+GTAGS
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+
